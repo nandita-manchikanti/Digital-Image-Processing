@@ -24,3 +24,24 @@ Convert the given Lena image to grayscale image. Use the cv2.resize() to down sa
 Down sample the grayscale Lena image with  8 different intensity ranges of values (0-255, 0-127, 0-63, 0-31, 0-15, 0-7, 0-3, and 0-1). (Note: Size of images are the same). And display all those 8 downsampled images  in the same size display area on the screen. Observe what happens
 
 # Week3
+
+1. Take a Lena image and convert it into grayscale. Create 10 noisy versions of the Lena image by adding additive Gaussian noise with the original image. Take the average of noisy images and display the same. Report the observation made.
+2. Take a Lena image and scale it by factors of 1,2,0.5 using bilinear and nearest neighbor interpolation methods. Display the scaled images. Also, display the output of built-in functions for doing scaling by factors of 0.5,1 and 2. Compare the results.
+
+Note:
+
+1. Write the user defined function for image averaging (problem 1)
+2. Implement bilinear and nearest neighbor interpolation methods using user defined functions as well as built-in functions  (problem 2)
+
+# Week4
+
+Download the leaning tower of the PISA image and find the angle of inclination using appropriate rotations with bilinear interpolation.
+
+# Week5
+
+1. Do histogram equalization on pout-dark and display the same
+2. Do histogram matching (specification) on the pout-dark image, keeping pout-bright as a reference image.
+
+Note:
+
+Use predefined as well as user defined functions for the above problems
