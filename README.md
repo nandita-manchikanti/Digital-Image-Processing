@@ -45,3 +45,11 @@ Download the leaning tower of the PISA image and find the angle of inclination u
 Note:
 
 Use predefined as well as user defined functions for the above problems
+
+# Week6
+
+
+Download Lena color image, convert it to grayscale image and add salt and pepper noise with noise quantity 0.1,0.2 upto 1 and generate 10 noisy images.
+
+1. Do average filtering ( by correlating with average filter ) of varying sizes for each image. Filter size can be 33, 55, 77. (In 33 filter all the values are 1/9, in 55 filter all the values are 1/25 and in 7*7 filter all the values are 1/49)
+2. Similarly, repeat question 1 by replacing the average filter by median filter.
